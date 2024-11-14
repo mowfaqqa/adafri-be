@@ -17,6 +17,9 @@ Each campaign has the following fields:
 
 ## Endpoints
 
+### POSTMAN DOCS 
+https://www.postman.com/mwffq/ccfb5d53-0c30-4d2c-b87a-ab18ec2ad850/request/wa5zczs/get-all-campaigns
+
 ### Create a New Campaign
 - **POST** `/api/campaigns`
 - Requires `title`, `budget`, `startDate`, and `endDate` in the request body

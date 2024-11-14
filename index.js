@@ -1,11 +1,13 @@
 const express = require("express");
+const cors = require("cors");
 require("dotenv").config();
 const connectDB = require("./config/db");
 const campaignRoutes = require("./routes/campaignRoutes");
 
 const app = express();
 app.use(express.json());
-
+// Enable CORS for all routes
+app.use(cors());
 // ========================
 // Error Handler Middleware
 // ========================
