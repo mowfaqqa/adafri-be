@@ -1,7 +1,7 @@
 const express = require("express");
 require("dotenv").config();
-const connectDB = require("./config/db");
-const campaignRoutes = require("./routes/campaignRoutes");
+const connectDB = require("../config/db");
+const campaignRoutes = require("../routes/campaignRoutes");
 
 const app = express();
 app.use(express.json());
